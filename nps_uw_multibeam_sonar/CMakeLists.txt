@@ -11,6 +11,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find required dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(pluginlib REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(gazebo_dev REQUIRED)
@@ -27,6 +30,8 @@ find_package(marine_acoustic_msgs REQUIRED)
 # CUDA settings
 include_directories(${CUDA_INCLUDE_DIRS})
 set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -arch=sm_60")
+set(CMAKE_CUDA_COMPILER "nvcc")
+enable_language(CUDA)
 
 # Include directories
 include_directories(
@@ -89,11 +94,13 @@ ament_target_dependencies(nps_multibeam_sonar_ray_ros_plugin
   OpenCV
   marine_acoustic_msgs
   PCL
+  pluginlib
 )
 
 target_link_libraries(nps_multibeam_sonar_ray_ros_plugin
   ${GAZEBO_LIBRARIES}
   ${CUDA_LIBRARIES}
+  ${marine_acoustic_msgs_LIBRARIES}
   ${CUDA_CUFFT_LIBRARIES}
   ${OpenCV_LIBRARIES}
   ${PCL_LIBRARIES}
@@ -112,6 +119,7 @@ install(DIRECTORY
   urdf
   models
   DESTINATION share/${PROJECT_NAME}
+  PATTERN "*~" EXCLUDE
 )
 
 if(BUILD_TESTING)
