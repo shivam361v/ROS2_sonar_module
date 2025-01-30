@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted
+[ 25%] [32mBuilding CXX object CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libp900_sonar_plugin.so[0m
+[ 50%] Built target p900_sonar_plugin
+[ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_node[0m
+[100%] Built target test_node
+-- Install configuration: ""
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/libp900_sonar_plugin.so
+-- Set runtime path of "/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/libp900_sonar_plugin.so" to ""
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/nps_uw_multibeam_sonar_converted/test_node
+-- Set runtime path of "/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/nps_uw_multibeam_sonar_converted/test_node" to ""
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/plugins.xml
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/package_run_dependencies/nps_uw_multibeam_sonar_converted
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/parent_prefix_path/nps_uw_multibeam_sonar_converted
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/ament_prefix_path.sh
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/ament_prefix_path.dsv
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/path.sh
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/path.dsv
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.bash
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.sh
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.zsh
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.dsv
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/package.dsv
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/packages/nps_uw_multibeam_sonar_converted
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/nps_uw_multibeam_sonar_converted__pluginlib__plugin/nps_uw_multibeam_sonar_converted
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/cmake/nps_uw_multibeam_sonar_convertedConfig.cmake
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/cmake/nps_uw_multibeam_sonar_convertedConfig-version.cmake
+-- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/package.xml

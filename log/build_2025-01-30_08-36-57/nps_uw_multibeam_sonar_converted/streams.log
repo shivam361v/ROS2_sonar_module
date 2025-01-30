@@ -1,0 +1,83 @@
+[0.008s] Invoking command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted -DCMAKE_INSTALL_PREFIX=/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.444s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.544s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.589s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.591s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.604s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.611s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Looking for pthread.h
+[0.684s] -- Looking for pthread.h - found
+[0.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.745s] -- Found Threads: TRUE  
+[0.780s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.836s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.836s] -- Configured cppcheck include dirs: /home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include
+[0.836s] -- Configured cppcheck exclude dirs and/or files: 
+[0.837s] -- Added test 'lint_cmake' to check CMake code style
+[0.838s] -- Added test 'uncrustify' to check C / C++ code style
+[0.838s] -- Configured uncrustify additional arguments: 
+[0.838s] -- Added test 'xmllint' to check XML markup files
+[0.839s] -- Configuring done
+[0.850s] -- Generating done
+[0.853s] -- Build files have been written to: /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted
+[0.861s] Invoked command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted -DCMAKE_INSTALL_PREFIX=/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted
+[0.863s] Invoking command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted -- -j16 -l16
+[0.905s] [ 25%] [32mBuilding CXX object CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o[0m
+[1.322s] [ 50%] [32m[1mLinking CXX shared library libp900_sonar_plugin.so[0m
+[1.389s] [ 50%] Built target p900_sonar_plugin
+[1.406s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[4.956s] [100%] [32m[1mLinking CXX executable test_node[0m
+[5.094s] [100%] Built target test_node
+[5.104s] Invoked command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted -- -j16 -l16
+[5.112s] Invoking command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted
+[5.118s] -- Install configuration: ""
+[5.118s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include
+[5.118s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted
+[5.118s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp
+[5.118s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/libp900_sonar_plugin.so
+[5.119s] -- Set runtime path of "/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/libp900_sonar_plugin.so" to ""
+[5.119s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/nps_uw_multibeam_sonar_converted/test_node
+[5.120s] -- Set runtime path of "/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/lib/nps_uw_multibeam_sonar_converted/test_node" to ""
+[5.120s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/plugins.xml
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/package_run_dependencies/nps_uw_multibeam_sonar_converted
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/parent_prefix_path/nps_uw_multibeam_sonar_converted
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/ament_prefix_path.sh
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/ament_prefix_path.dsv
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/path.sh
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/environment/path.dsv
+[5.121s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.bash
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.sh
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.zsh
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/local_setup.dsv
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/package.dsv
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/packages/nps_uw_multibeam_sonar_converted
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/ament_index/resource_index/nps_uw_multibeam_sonar_converted__pluginlib__plugin/nps_uw_multibeam_sonar_converted
+[5.122s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/cmake/nps_uw_multibeam_sonar_convertedConfig.cmake
+[5.123s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/cmake/nps_uw_multibeam_sonar_convertedConfig-version.cmake
+[5.123s] -- Installing: /home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted/share/nps_uw_multibeam_sonar_converted/package.xml
+[5.125s] Invoked command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted

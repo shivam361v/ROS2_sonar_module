@@ -1,0 +1,4 @@
+source;share/nps_uw_multibeam_sonar_converted/local_setup.bash
+source;share/nps_uw_multibeam_sonar_converted/local_setup.dsv
+source;share/nps_uw_multibeam_sonar_converted/local_setup.sh
+source;share/nps_uw_multibeam_sonar_converted/local_setup.zsh
