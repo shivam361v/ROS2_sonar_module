@@ -1,5 +1,0 @@
-<library path="p900_sonar_plugin">
-  <class type="nps_uw_multibeam_sonar_converted::P900SonarPlugin" base_class_type="nps_uw_multibeam_sonar_converted::BaseInterface">
-    <description>My ROS2 Plugin</description>
-  </class>
-</library>

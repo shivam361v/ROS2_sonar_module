@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted -- -j16 -l16
+[0.063s] [ 25%] [32mBuilding CXX object CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o[0m
+[0.267s] [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2/transform_datatypes.h: No such file or directory
+[0.267s]     5 | #include [01;31m[K<tf2/transform_datatypes.h>[m[K  // Updated for ROS 2
+[0.267s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.268s] compilation terminated.
+[0.278s] gmake[2]: *** [CMakeFiles/p900_sonar_plugin.dir/build.make:76: CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o] Error 1
+[0.278s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/p900_sonar_plugin.dir/all] Error 2
+[0.278s] gmake: *** [Makefile:146: all] Error 2
+[0.281s] Invoked command in '/home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted -- -j16 -l16

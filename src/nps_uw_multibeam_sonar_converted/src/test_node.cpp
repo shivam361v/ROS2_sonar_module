@@ -6,8 +6,8 @@ int main(int argc, char** argv) {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("plugin_test_node");
 
-  pluginlib::ClassLoader<nps_uw_multibeam_sonar_converted::BaseInterface> loader(
-    "nps_uw_multibeam_sonar_converted", "nps_uw_multibeam_sonar_converted::BaseInterface"
+  pluginlib::ClassLoader<gazebo::BaseInterface> loader(
+    "gazebo", "gazebo::BaseInterface"
   );
 
   // Log node startup
@@ -16,8 +16,8 @@ int main(int argc, char** argv) {
 try {
     RCLCPP_INFO(node->get_logger(), "🔄 Attempting to load plugin...");
     
-    auto plugin = loader.createSharedInstance("nps_uw_multibeam_sonar_converted::P900SonarPlugin");
-    RCLCPP_INFO(node->get_logger(), "✅ Successfully loaded plugin: 'nps_uw_multibeam_sonar_converted::P900SonarPlugin'");
+    auto plugin = loader.createSharedInstance("gazebo::P900SonarPlugin");
+    RCLCPP_INFO(node->get_logger(), "✅ Successfully loaded plugin: 'gazebo::P900SonarPlugin'");
 
     // Initialize plugin with logging
     RCLCPP_INFO(node->get_logger(), "🔧 Initializing plugin...");

@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o[0m
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2/transform_datatypes.h: No such file or directory
+    5 | #include [01;31m[K<tf2/transform_datatypes.h>[m[K  // Updated for ROS 2
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/p900_sonar_plugin.dir/build.make:76: CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/p900_sonar_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

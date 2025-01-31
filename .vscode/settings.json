@@ -69,6 +69,17 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "csignal": "cpp",
+        "any": "cpp",
+        "codecvt": "cpp",
+        "coroutine": "cpp",
+        "source_location": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "future": "cpp",
+        "shared_mutex": "cpp",
+        "cfenv": "cpp",
+        "cassert": "cpp"
     }
 }

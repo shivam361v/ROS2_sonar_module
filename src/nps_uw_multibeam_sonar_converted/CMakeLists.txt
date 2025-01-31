@@ -9,6 +9,12 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(gazebo_ros REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(marine_acoustic_msgs REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 # Add the plugin library
 add_library(p900_sonar_plugin SHARED src/p900_sonar_plugin.cpp)
@@ -31,8 +37,17 @@ install(
 #Executables
 add_executable(test_node src/test_node.cpp)
 target_link_libraries(test_node p900_sonar_plugin)
-ament_target_dependencies(test_node rclcpp pluginlib)
-install(TARGETS test_node DESTINATION lib/${PROJECT_NAME})
+
+ament_target_dependencies(test_node
+rclcpp 
+sensor_msgs
+marine_acoustic_msgs
+gazebo_ros
+cv_bridge
+OpenCV
+pcl_conversions
+pluginlib)
+install(TARGETS p900_sonar_plugin test_node DESTINATION lib/${PROJECT_NAME})
 
 # Declare plugin metadata
 pluginlib_export_plugin_description_file(nps_uw_multibeam_sonar_converted plugins.xml)
