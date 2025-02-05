@@ -1,0 +1,1145 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The CUDA compiler identification is NVIDIA 11.5.119
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 3.05
+-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+-- Found assimp: /usr/include (found version "5.2.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Gazebo version: 11.10
+-- Checking for module 'tbb'
+--   Found tbb, version 2021.5.0
+-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found marine_acoustic_msgs: 2.1.0 (/opt/ros/humble/share/marine_acoustic_msgs/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found CUDA: /usr (found version "11.5") 
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shivam/ROS2_sonar_module/build/nps_uw_multibeam_sonar_converted
+[ 25%] [32mBuilding CXX object CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o[0m
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:152:8:[m[K [01;31m[Kerror: [m[K‘[01m[KMD5Sum[m[K’ is not a class template
+  152 | struct [01;31m[KMD5Sum[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:157:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  157 |   static const uint64_t static_value1 = MD5Sum<sensor_msgs::[01;31m[KPointCloud2[m[K>::static_value1;
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:157:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |   static const uint64_t static_value1 = MD5Sum<sensor_msgs::PointCloud2[01;31m[K>[m[K::static_value1;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:158:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  158 |   static const uint64_t static_value2 = MD5Sum<sensor_msgs::[01;31m[KPointCloud2[m[K>::static_value2;
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:158:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  158 |   static const uint64_t static_value2 = MD5Sum<sensor_msgs::PointCloud2[01;31m[K>[m[K::static_value2;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:161:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic_value1[m[K’ is not a type
+  161 |   ROS_STATIC_ASSERT([01;31m[Kstatic_value1[m[K == 0x1158d486dd51d683ULL);
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:161:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K==[m[K’ token
+  161 |   ROS_STATIC_ASSERT(static_value1 [01;31m[K==[m[K 0x1158d486dd51d683ULL);
+      |                                   [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:162:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic_value2[m[K’ is not a type
+  162 |   ROS_STATIC_ASSERT([01;31m[Kstatic_value2[m[K == 0xce2f1be655c3c181ULL);
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:162:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K==[m[K’ token
+  162 |   ROS_STATIC_ASSERT(static_value2 [01;31m[K==[m[K 0xce2f1be655c3c181ULL);
+      |                                   [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint ros::message_traits::MD5Sum<T>::ROS_STATIC_ASSERT(int)[m[K’ cannot be overloaded with ‘[01m[Kint ros::message_traits::MD5Sum<T>::ROS_STATIC_ASSERT(int)[m[K’
+  162 |   [01;31m[KROS_STATIC_ASSERT[m[K(static_value2 == 0xce2f1be655c3c181ULL);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:161:3:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint ros::message_traits::MD5Sum<T>::ROS_STATIC_ASSERT(int)[m[K’
+  161 |   [01;36m[KROS_STATIC_ASSERT[m[K(static_value1 == 0x1158d486dd51d683ULL);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K In static member function ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<T>::value()[m[K’:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:154:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  154 |   static const char * value() {return MD5Sum<sensor_msgs::[01;31m[KPointCloud2[m[K>::value();}
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:154:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  154 |   static const char * value() {return MD5Sum<sensor_msgs::PointCloud2[01;31m[K>[m[K::value();}
+      |                                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K At global scope:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:166:8:[m[K [01;31m[Kerror: [m[K‘[01m[KDataType[m[K’ is not a class template
+  166 | struct [01;31m[KDataType[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K In static member function ‘[01m[Kstatic const char* ros::message_traits::DataType<T>::value()[m[K’:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:168:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  168 |   static const char * value() {return DataType<sensor_msgs::[01;31m[KPointCloud2[m[K>::value();}
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:168:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  168 |   static const char * value() {return DataType<sensor_msgs::PointCloud2[01;31m[K>[m[K::value();}
+      |                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K At global scope:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:173:8:[m[K [01;31m[Kerror: [m[K‘[01m[KDefinition[m[K’ is not a class template
+  173 | struct [01;31m[KDefinition[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K In static member function ‘[01m[Kstatic const char* ros::message_traits::Definition<T>::value()[m[K’:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:175:63:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  175 |   static const char * value() {return Definition<sensor_msgs::[01;31m[KPointCloud2[m[K>::value();}
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:175:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |   static const char * value() {return Definition<sensor_msgs::PointCloud2[01;31m[K>[m[K::value();}
+      |                                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K At global scope:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:183:8:[m[K [01;31m[Kerror: [m[K‘[01m[KHasHeader[m[K’ is not a class template
+  183 | struct [01;31m[KHasHeader[m[K<pcl::PointCloud<T>>: FalseType {};
+      |        [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:183:49:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+  183 | struct HasHeader<pcl::PointCloud<T>>: FalseType [01;31m[K{[m[K};
+      |                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:186:8:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeStamp[m[K’ is not a class template
+  186 | struct [01;31m[KTimeStamp[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:193:15:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ in namespace ‘[01m[Kros[m[K’ does not name a type
+  193 |   static ros::[01;31m[KTime[m[K * pointer(typename pcl::PointCloud<T> & m)
+      |               [01;31m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:199:15:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ in namespace ‘[01m[Kros[m[K’ does not name a type
+  199 |   static ros::[01;31m[KTime[m[K const * pointer(const typename pcl::PointCloud<T> & m)
+      |               [01;31m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:205:15:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ in namespace ‘[01m[Kros[m[K’ does not name a type
+  205 |   static ros::[01;31m[KTime[m[K value(const typename pcl::PointCloud<T> & m)
+      |               [01;31m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:211:38:[m[K [01;31m[Kerror: [m[K‘[01m[KHeader[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Header[m[K’?
+  211 |   static boost::shared_ptr<std_msgs::[01;31m[KHeader[m[K> header_;
+      |                                      [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:140:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Header[m[K’ declared here
+  140 | using [01;36m[KHeader[m[K =
+      |       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:211:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |   static boost::shared_ptr<std_msgs::Header[01;31m[K>[m[K header_;
+      |                                            [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:212:38:[m[K [01;31m[Kerror: [m[K‘[01m[KHeader[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Header[m[K’?
+  212 |   static boost::shared_ptr<std_msgs::[01;31m[KHeader[m[K> header_const_;
+      |                                      [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:140:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Header[m[K’ declared here
+  140 | using [01;36m[KHeader[m[K =
+      |       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:212:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  212 |   static boost::shared_ptr<std_msgs::Header[01;31m[K>[m[K header_const_;
+      |                                            [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:216:8:[m[K [01;31m[Kerror: [m[K‘[01m[KFrameId[m[K’ is not a class template
+  216 | struct [01;31m[KFrameId[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:228:8:[m[K [01;31m[Kerror: [m[K‘[01m[KSerializer[m[K’ is not a class template
+  228 | struct [01;31m[KSerializer[m[K<pcl::PointCloud<T>>
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:[m[K In static member function ‘[01m[Kstatic void ros::serialization::Serializer<T>::read(Stream&, pcl::PointCloud<PointT>&)[m[K’:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:270:15:[m[K [01;31m[Kerror: [m[K‘[01m[KHeader[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Header[m[K’?
+  270 |     std_msgs::[01;31m[KHeader[m[K header;
+      |               [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:140:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Header[m[K’ declared here
+  140 | using [01;36m[KHeader[m[K =
+      |       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:271:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kheader[m[K’ was not declared in this scope; did you mean ‘[01m[Kh_addr[m[K’?
+  271 |     stream.next([01;31m[Kheader[m[K);
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kh_addr[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:277:30:[m[K [01;31m[Kerror: [m[K‘[01m[KPointField[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointField[m[K’?
+  277 |     std::vector<sensor_msgs::[01;31m[KPointField[m[K> fields;
+      |                              [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp:180:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointField[m[K’ declared here
+  180 | using [01;36m[KPointField[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:277:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  277 |     std::vector<sensor_msgs::PointField[01;31m[K>[m[K fields;
+      |                                        [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:277:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:281:70:[m[K [01;31m[Kerror: [m[K‘[01m[KgetMapping[m[K’ is not a member of ‘[01m[Kpcl::detail[m[K’; did you mean ‘[01m[KFieldMapping[m[K’?
+  281 |     boost::shared_ptr<pcl::MsgFieldMap> & mapping_ptr = pcl::detail::[01;31m[KgetMapping[m[K(m);
+      |                                                                      [01;31m[K^~~~~~~~~~[m[K
+      |                                                                      [32m[KFieldMapping[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:284:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kboost[m[K’
+  284 |       mapping_ptr = boost::[01;31m[Kmake_shared[m[K<pcl::MsgFieldMap>();
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:284:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::make_shared[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:45[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/memory.h:122:66:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::make_shared[m[K’
+  122 | std::enable_if_t<!has_custom_allocator<T>::value, shared_ptr<T>> [01;36m[Kmake_shared[m[K(Args&&... args)
+      |                                                                  [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:284:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  284 |       mapping_ptr = boost::make_shared<pcl::MsgFieldMap[01;31m[K>[m[K();
+      |                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:284:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  284 |       mapping_ptr = boost::make_shared<pcl::MsgFieldMap>([01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:61[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/usr/include/boost/bind.hpp:[m[K At global scope:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:53:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGazeboMultibeamSonar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 | public: GazeboMultibeamSonar();
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:56:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   56 | public: ~GazeboMultibeamSonar();
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensors[m[K’ does not name a type
+   66 | protected: sensors::GpuRaySensorPtr parentSensor;
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:67:[m[K [01;31m[Kerror: [m[K‘[01m[Krendering[m[K’ does not name a type
+   67 | protected: rendering::GpuLaserPtr laserCamera;
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent[m[K’ does not name a type; did you mean ‘[01m[Kservent[m[K’?
+   69 | private: event::ConnectionPtr newLaserFrameConnection;
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent[m[K’ does not name a type; did you mean ‘[01m[Kservent[m[K’?
+   71 | private: event::ConnectionPtr load_connection_;
+      | 
+In file included from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:176:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrite_counter_[m[K’ does not name a type
+  176 | protected: write_counter_;
+      | 
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:36[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/base_interface.hpp:12[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:28[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kgazebo::SensorPlugin* gazebo_ros::RegisterPlugin()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:50:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KGazeboMultibeamSonar[m[K’
+   50 |   GZ_REGISTER_SENSOR_PLUGIN(GazeboMultibeamSonar)
+      | 
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:481:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_SENSOR_PLUGIN[m[K’
+  481 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KGazeboMultibeamSonar[m[K’
+   50 |   GZ_REGISTER_SENSOR_PLUGIN(GazeboMultibeamSonar)
+      | 
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:481:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_SENSOR_PLUGIN[m[K’
+  481 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:50:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ was not declared in this scope; did you mean ‘[01m[KGazeboRosMultibeamSonar[m[K’?
+   50 |   GZ_REGISTER_SENSOR_PLUGIN(GazeboMultibeamSonar)
+      | 
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:481:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_SENSOR_PLUGIN[m[K’
+  481 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:52:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ does not name a type; did you mean ‘[01m[KGazeboRosMultibeamSonar[m[K’?
+   52 |   GazeboMultibeamSonar::GazeboMultibeamSonar() : SensorPlugin(), width(0), height(0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:62:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ does not name a type; did you mean ‘[01m[KGazeboRosMultibeamSonar[m[K’?
+   62 | GazeboMultibeamSonar::~GazeboMultibeamSonar() {
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:76:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+   76 | void GazeboMultibeamSonar::Load(gazebo::sensors::SensorPtr _sensor, sdf::ElementPtr _sdf) override
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:76:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[KLoad[m[K’ not allowed outside a class definition
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::Load(gazebo::sensors::SensorPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:79:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 |     this->parentSensor = std::dynamic_pointer_cast<gazebo::sensors::GpuRaySensor>(_sensor);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:80:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   80 |     this->laserCamera = this->parentSensor->LaserCamera();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:80:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:82:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   82 |     if (!this->parentSensor)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:89:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   89 |     this->point_cloud_topic_name_ = _sdf->HasElement("pointCloudTopicName") ?
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:91:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   91 |     this->point_cloud_cutoff_ = _sdf->HasElement("pointCloudCutoff") ?
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:94:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   94 |     this->width = this->parentSensor->RangeCount();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:94:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:95:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |     this->height = this->parentSensor->VerticalRangeCount();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:95:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:96:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   96 |     this->format = "R8G8B8";  // Default image format
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:99:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   99 |     this->newLaserFrameConnection = this->laserCamera->ConnectNewLaserFrame(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:99:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:100:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  100 |       std::bind(&GazeboMultibeamSonar::OnNewLaserFrame, this,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:100:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:105:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  105 |     this->parentSensor->SetActive(true);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:108:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  108 |     this->sonar_image_raw_topic_name_ = _sdf->HasElement("sonarImageRawTopicName") ?
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:111:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  111 |     this->sonar_image_topic_name_ = _sdf->HasElement("sonarImageTopicName") ?
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:115:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  115 |     this->verticalFOV = _sdf->HasElement("verticalFOV") ? _sdf->GetElement("verticalFOV")->Get<double>() : 10.0;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:116:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  116 |     this->sonarFreq = _sdf->HasElement("sonarFreq") ? _sdf->GetElement("sonarFreq")->Get<double>() : 900e3;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:117:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  117 |     this->bandwidth = _sdf->HasElement("bandwidth") ? _sdf->GetElement("bandwidth")->Get<double>() : 29.5e6;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:118:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  118 |     this->soundSpeed = _sdf->HasElement("soundSpeed") ? _sdf->GetElement("soundSpeed")->Get<double>() : 1500.0;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:119:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  119 |     this->maxDistance = _sdf->HasElement("maxDistance") ? _sdf->GetElement("maxDistance")->Get<double>() : 60.0;
+      | 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:128:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  128 |                 this->maxDistance,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:129:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  129 |                 this->soundSpeed * (1.0 / (this->nFreq * delta_f)),
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:129:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  129 |                 this->soundSpeed * (1.0 / (this->nFreq * delta_f)),
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:129:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelta_f[m[K’ was not declared in this scope
+  129 |                 this->soundSpeed * (1.0 / (this->nFreq * delta_f)),
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:130:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  130 |                 this->nBeams,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:131:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  131 |                 this->ray_nElevationRays, this->ray_nAzimuthRays);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:131:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  131 |                 this->ray_nElevationRays, this->ray_nAzimuthRays);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:136:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  136 |       this->writeLogFlag = _sdf->Get<bool>("writeLog");
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:137:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  137 |       if (this->writeLogFlag)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:140:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  140 |           this->writeInterval = _sdf->Get<int>("writeFrameInterval");
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:142:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  142 |           this->writeInterval = 10;
+      | 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:145:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  145 |                     "Raw data logged every %d frames", this->writeInterval);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:150:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  150 |     this->rand_image = cv::Mat(this->height, this->width, CV_32FC2);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:150:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:150:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:154:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  154 |     rng.fill(this->rand_image, cv::RNG::NORMAL, 0.0f, 1.0f);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:157:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  157 |     this->window = new float[this->nFreq];
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:157:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:159:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  159 |     for (size_t f = 0; f < this->nFreq; f++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:161:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  161 |       this->window[f] = 0.54 - 0.46 * cos(2.0 * M_PI * (f + 1) / this->nFreq);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:161:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:162:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  162 |       windowSum += pow(this->window[f], 2.0);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:164:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  164 |     for (size_t f = 0; f < this->nFreq; f++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:165:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  165 |       this->window[f] = this->window[f] / sqrt(windowSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:165:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:168:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  168 |     this->beamCorrector = new float*[nBeams];
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:168:[m[K [01;31m[Kerror: [m[K‘[01m[KnBeams[m[K’ was not declared in this scope
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:170:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  170 |       this->beamCorrector[i] = new float[nBeams];
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:173:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  173 |     this->load_connection_ = GazeboRosCameraUtils::OnLoad(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:173:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosCameraUtils[m[K’ has not been declared
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:174:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  174 |         boost::bind(&GazeboMultibeamSonar::Advertise, this));
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:174:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:175:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosCameraUtils[m[K’ has not been declared
+  175 |     GazeboRosCameraUtils::Load(_sensor, _sdf);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:178:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  178 | void GazeboMultibeamSonar::pointCloudSubThread()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::pointCloudSubThread()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:181:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  181 |     rclcpp::spin_some(this->get_node_base_interface());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:189:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  189 | void GazeboMultibeamSonar::Advertise()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::Advertise()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:194:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  194 |   this->point_cloud_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::PointCloud2>(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:194:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:194:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:195:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  195 |       this->point_cloud_topic_name_, qos);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:198:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  198 |   this->normal_image_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::Image>(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:198:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:198:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:199:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  199 |       this->point_cloud_topic_name_ + "_normal_image", qos);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:202:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  202 |   this->sonar_image_raw_pub_ = this->rosnode_->create_publisher<marine_acoustic_msgs::msg::ProjectedSonarImage>(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:202:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:202:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:203:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  203 |       this->sonar_image_raw_topic_name_, qos);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:206:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  206 |   this->sonar_image_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::Image>(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:206:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:206:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:207:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  207 |       this->sonar_image_topic_name_, qos);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:210:[m[K [01;31m[Kerror: [m[K‘[01m[KNpsGazeboRosMultibeamSonarRay[m[K’ has not been declared
+  210 |   auto callback = std::bind(&NpsGazeboRosMultibeamSonarRay::UpdatePointCloud, this, std::placeholders::_1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:210:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:211:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  211 |   this->point_cloud_sub_ = this->rosnode_->create_subscription<sensor_msgs::msg::PointCloud2>(
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:211:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:211:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:212:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  212 |       this->point_cloud_topic_name_, qos, callback);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:215:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  215 | void GazeboMultibeamSonar::PointCloudConnect()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::PointCloudConnect()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:217:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  217 |   this->point_cloud_connect_count_++;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:218:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  218 |   this->parentSensor->SetActive(true);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:221:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  221 | void GazeboMultibeamSonar::PointCloudDisconnect()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::PointCloudDisconnect()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:223:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  223 |   if (this->point_cloud_connect_count_ > 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:224:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  224 |     this->point_cloud_connect_count_--;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:226:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  226 |   if (this->point_cloud_connect_count_ == 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:227:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  227 |     this->parentSensor->SetActive(false);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:230:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  230 | void GazeboMultibeamSonar::SonarImageConnect()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::SonarImageConnect()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:232:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  232 |   this->sonar_image_connect_count_++;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:233:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  233 |   this->parentSensor->SetActive(true);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:236:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  236 | void GazeboMultibeamSonar::SonarImageDisconnect()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::SonarImageDisconnect()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:238:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  238 |   if (this->sonar_image_connect_count_ > 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:239:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  239 |     this->sonar_image_connect_count_--;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:241:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  241 |   if (this->sonar_image_connect_count_ == 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:242:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |     this->parentSensor->SetActive(false);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:245:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  245 | void GazeboMultibeamSonar::OnNewLaserFrame(const float *_image,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::OnNewLaserFrame(const float*, unsigned int, unsigned int, unsigned int, const string&)[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:249:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  249 |   this->sensor_update_time_ = this->parentSensor->LastMeasurementTime();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:249:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:251:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  251 |   if (this->parentSensor->IsActive())
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:253:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  253 |     if (this->sonar_image_connect_count_ > 0 && !this->point_cloud_image_.empty())
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:253:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:255:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  255 |       this->ComputeSonarImage();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:260:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  260 |     if (this->sonar_image_connect_count_ > 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:262:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  262 |       this->parentSensor->SetActive(true);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:267:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  267 | void GazeboMultibeamSonar::ComputeSonarImage()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::ComputeSonarImage()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:269:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  269 |   std::lock_guard<std::mutex> lock(this->lock_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:271:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  271 |   if (this->point_cloud_image_.empty())
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:274:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  274 |   cv::Mat depth_image = this->point_cloud_image_;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:275:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  275 |   cv::Mat normal_image = this->ComputeNormalImage(depth_image);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:276:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  276 |   double vFOV = this->parentSensor->VertFOV();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:277:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  277 |   double hFOV = this->parentSensor->HorzFOV();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:278:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  278 |   double vPixelSize = vFOV / (this->height - 1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:279:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  279 |   double hPixelSize = hFOV / (this->width - 1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:281:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  281 |   if (this->beamCorrectorSum == 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:282:[m[K [01;31m[Kerror: [m[K‘[01m[KComputeCorrector[m[K’ was not declared in this scope
+  282 |     ComputeCorrector();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:284:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  284 |   if (this->reflectivityImage.empty())
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:285:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  285 |     this->reflectivityImage = cv::Mat(width, height, CV_32FC1, cv::Scalar(this->mu));
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:285:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:285:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:285:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:291:[m[K [01;31m[Kerror: [m[K‘[01m[Krand_image[m[K’ was not declared in this scope
+  291 |       depth_image, normal_image, rand_image,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:293:[m[K [01;31m[Kerror: [m[K‘[01m[KverticalFOV[m[K’ was not declared in this scope
+  293 |       hPixelSize, verticalFOV / 180 * M_PI, hPixelSize,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:294:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  294 |       this->elevation_angles, vPixelSize * (raySkips + 1),
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:294:[m[K [01;31m[Kerror: [m[K‘[01m[KraySkips[m[K’ was not declared in this scope
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:295:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  295 |       this->soundSpeed, this->maxDistance, this->sourceLevel,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:295:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:295:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:296:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  296 |       this->nBeams, this->nRays, this->raySkips, this->sonarFreq,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:296:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:296:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:296:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:297:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  297 |       this->bandwidth, this->nFreq, this->reflectivityImage,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:297:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:297:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:298:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  298 |       this->attenuation, this->window, this->beamCorrector,
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:298:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:298:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:299:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  299 |       this->beamCorrectorSum, this->debugFlag);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:299:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:304:[m[K [01;31m[Kerror: [m[K‘[01m[KdebugFlag[m[K’ was not declared in this scope
+  304 |   if (debugFlag)
+      | 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:306:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  306 |     RCLCPP_INFO(this->rosnode_->get_logger(), "GPU Sonar Frame Calc Time: %ld µs", duration.count());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:310:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  310 |   this->sonar_image_raw_msg_.header.frame_id = this->frame_name_;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:310:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:311:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  311 |   this->sonar_image_raw_msg_.header.stamp = this->rosnode_->now();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:311:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:314:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  314 |   ping_info_msg_.frequency = this->sonarFreq;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:315:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  315 |   ping_info_msg_.sound_speed = this->soundSpeed;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:317:[m[K [01;31m[Kerror: [m[K‘[01m[KnBeams[m[K’ was not declared in this scope; did you mean ‘[01m[KP_Beams[m[K’?
+  317 |   for (size_t beam = 0; beam < nBeams; beam++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:323:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  323 |   this->sonar_image_raw_msg_.ping_info = ping_info_msg_;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:325:[m[K [01;31m[Kerror: [m[K‘[01m[KnBeams[m[K’ was not declared in this scope; did you mean ‘[01m[KP_Beams[m[K’?
+  325 |   for (size_t beam = 0; beam < nBeams; beam++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:328:[m[K [01;31m[Kerror: [m[K‘[01m[Kazimuth_angles[m[K’ was not declared in this scope
+  328 |     beam_direction.x = cos(azimuth_angles[beam]);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:331:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  331 |     this->sonar_image_raw_msg_.beam_directions.push_back(beam_direction);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:336:[m[K [01;31m[Kerror: [m[K‘[01m[KrangeVector[m[K’ was not declared in this scope
+  336 |     ranges.push_back(rangeVector[i]);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:338:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  338 |   this->sonar_image_raw_msg_.ranges = ranges;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:344:[m[K [01;31m[Kerror: [m[K‘[01m[KnBeams[m[K’ was not declared in this scope; did you mean ‘[01m[KP_Beams[m[K’?
+  344 |   sonar_image_data.beam_count = nBeams;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:347:[m[K [01;31m[Kerror: [m[K‘[01m[KnFreq[m[K’ was not declared in this scope
+  347 |   int Intensity[nBeams][nFreq];
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:353:[m[K [01;31m[Kerror: [m[K‘[01m[KIntensity[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::Intensity[m[K’?
+  353 |       Intensity[beam][f] = static_cast<int>(this->sensorGain * abs(P_Beams[beam][f]));
+      | 
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_ros/pcl_ros/point_cloud.hpp:61[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:15[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:419:10:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::Intensity[m[K’ declared here
+  419 |   struct [01;36m[KIntensity[m[K: public _Intensity
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:353:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  353 |       Intensity[beam][f] = static_cast<int>(this->sensorGain * abs(P_Beams[beam][f]));
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:360:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  360 |   this->sonar_image_raw_msg_.image = sonar_image_data;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:361:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  361 |   this->sonar_image_raw_pub_->publish(this->sonar_image_raw_msg_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:361:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:366:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  366 |   cv::normalize(Intensity_image, Intensity_image, -255 + this->plotScaler / 10 * 255, 255, cv::NORM_MINMAX);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:371:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  371 |   this->sonar_image_msg_.header.frame_id = this->frame_name_;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:371:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:372:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  372 |   this->sonar_image_msg_.header.stamp = this->rosnode_->now();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:372:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:373:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  373 |   img_bridge = cv_bridge::CvImage(this->sonar_image_msg_.header, sensor_msgs::image_encodings::BGR8, Intensity_image_color);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:374:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  374 |   img_bridge.toImageMsg(this->sonar_image_msg_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:375:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  375 |   this->sonar_image_pub_->publish(this->sonar_image_msg_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:375:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:378:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  378 |   this->normal_image_msg_.header.frame_id = this->frame_name_;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:378:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:379:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  379 |   this->normal_image_msg_.header.stamp = this->rosnode_->now();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:379:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:382:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  382 |   img_bridge = cv_bridge::CvImage(this->normal_image_msg_.header, sensor_msgs::image_encodings::RGB8, normal_image8);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:383:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  383 |   img_bridge.toImageMsg(this->normal_image_msg_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:384:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  384 |   this->normal_image_pub_->publish(this->normal_image_msg_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:384:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:387:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  387 | void GazeboMultibeamSonar::UpdatePointCloud(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::UpdatePointCloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:389:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  389 |   std::lock_guard<std::mutex> lock(this->lock_);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:394:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  394 |   this->point_cloud_image_.create(this->height, this->width, CV_32FC1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:394:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:394:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:395:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  395 |   cv::MatIterator_<float> iter_image = this->point_cloud_image_.begin<float>();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:395:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:396:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  396 |   double hFOV = this->parentSensor->HorzFOV();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:399:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  399 |   bool angles_calculation_flag = this->azimuth_angles.empty();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:401:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  401 |   for (int j = 0; j < this->nRays; j++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:405:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  405 |       const double Diff = this->parentSensor->VerticalAngleMax().Radian()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:406:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  406 |                         - this->parentSensor->VerticalAngleMin().Radian();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:407:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  407 |       this->elevation_angles[j] = (j * Diff / (this->nRays - 1))
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:407:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:408:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  408 |                                 + this->parentSensor->VerticalAngleMin().Radian();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:411:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  411 |     for (int i = 0; i < this->nBeams; i++, ++iter_image)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:413:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  413 |       pcl::PointXYZI point = pcl_pointcloud->at(j, this->width - i - 1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:414:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  414 |       this->point_cloud_image_.at<float>(j, i) = std::sqrt(point.x * point.x + point.y * point.y + point.z * point.z);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:414:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:418:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  418 |         const double Diff = this->parentSensor->AngleMax().Radian()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:419:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  419 |                           - this->parentSensor->AngleMin().Radian();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:420:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  420 |         this->azimuth_angles.push_back((i * Diff / (this->nBeams - 1))
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:420:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:421:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  421 |                           + this->parentSensor->AngleMin().Radian());
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:430:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  430 |   if (this->point_cloud_connect_count_ > 0)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:432:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  432 |     this->point_cloud_pub_->publish(*msg);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:436:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  436 | void GazeboMultibeamSonar::ComputeCorrector()
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K In function ‘[01m[Kvoid gazebo_ros::ComputeCorrector()[m[K’:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:438:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  438 |   double hFOV = this->parentSensor->HorzFOV();
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:439:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  439 |   double hPixelSize = hFOV / (this->width - 1);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:442:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  442 |   this->beamCorrectorSum = 0.0;
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:445:[m[K [01;31m[Kerror: [m[K‘[01m[KnBeams[m[K’ was not declared in this scope; did you mean ‘[01m[Kbeam[m[K’?
+  445 |   for (size_t beam = 0; beam < nBeams; beam++)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:450:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  450 |                                     * std::sin(this->azimuth_angles[beam] - this->azimuth_angles[beam_other]));
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:450:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:452:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  452 |       this->beamCorrector[beam][beam_other] = std::abs(azimuthBeamPattern);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:453:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  453 |       this->beamCorrectorSum += std::pow(azimuthBeamPattern, 2);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:457:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  457 |   this->beamCorrectorSum = std::sqrt(this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:457:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:1[m[K:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:460:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  460 |   RCLCPP_INFO(this->rosnode_->get_logger(), "Beam corrector computed, sum: %f", this->beamCorrectorSum);
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:[m[K At global scope:
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:463:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboMultibeamSonar[m[K’ has not been declared
+  463 | cv::Mat GazeboMultibeamSonar::ComputeNormalImage(cv::Mat& depth)
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:466:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K}[m[K’ token
+  466 | } // namespace gazebo_ros
+      | 
+[01m[K/home/shivam/ROS2_sonar_module/src/nps_uw_multibeam_sonar_converted/src/p900_sonar_plugin.cpp:469:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  469 | PLUGINLIB_EXPORT_CLASS(gazebo_ros::P900SonarPlugin, gazebo_ros::BaseInterface)
+      | 
+gmake[2]: *** [CMakeFiles/p900_sonar_plugin.dir/build.make:76: CMakeFiles/p900_sonar_plugin.dir/src/p900_sonar_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/p900_sonar_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

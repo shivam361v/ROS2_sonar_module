@@ -13,7 +13,8 @@
 #include <gazebo/sensors/SensorTypes.hh>
 #include <gazebo/sensors/GpuRaySensor.hh>
 #include <gazebo/rendering/GpuLaser.hh>
-#include <gazebo/plugins/GazeboRosCameraUtils.hh>
+#include <gazebo_plugins/gazebo_ros_camera.hpp>
+
 #include <gazebo_ros/node.hpp>
 
 // ROS2 headers
@@ -23,7 +24,7 @@
 #include <sensor_msgs/msg/camera_info.hpp>
 #include <marine_acoustic_msgs/msg/projected_sonar_image.hpp>
 #include <marine_acoustic_msgs/msg/sonar_image_data.hpp>
-#include <image_transport/image_transport.hpp>
+// #include <image_transport/image_transport/image_transport.hpp>
 
 // OpenCV
 #include <opencv2/core.hpp>
@@ -92,7 +93,7 @@ private: double point_cloud_cutoff_;
 private: void ComputeCorrector();
 private: cv::Mat rand_image;
 
-/// \brief Parameters for sonar properties
+/// brief Parameters for sonar properties
 private:
     double sonar_freq_;
     double bandwidth_;
@@ -104,7 +105,7 @@ private:
     double attenuation_;
     double vertical_fov_;
     
-    /// \brief Constant reflectivity
+    /// brief Constant reflectivity
     double mu_;
     bool calculate_reflectivity_;
     cv::Mat reflectivity_image_;

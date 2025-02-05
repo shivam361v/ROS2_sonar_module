@@ -1,1 +1,1 @@
-pluginlib;rclcpp;sensor_msgs;marine_acoustic_msgs;gazebo_ros;cv_bridge;opencv;pcl_conversions;pcl_msgs;ament_lint_auto;ament_lint_common
+pluginlib;rclcpp;sensor_msgs;std_msgs;marine_acoustic_msgs;gazebo_ros;opencv;cv_bridge;pcl_ros;pcl_conversions;pcl_msgs;tf2;tf2_ros;tf2_geometry_msgs;geometry_msgs;image_transport;ament_lint_auto;ament_lint_common

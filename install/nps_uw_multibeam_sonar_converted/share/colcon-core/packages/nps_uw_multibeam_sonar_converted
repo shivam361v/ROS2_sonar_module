@@ -1,1 +1,1 @@
-cv_bridge:gazebo_ros:marine_acoustic_msgs:opencv:pcl_conversions:pcl_msgs:pluginlib:rclcpp:sensor_msgs
+cv_bridge:gazebo_ros:geometry_msgs:image_transport:marine_acoustic_msgs:opencv:pcl_conversions:pcl_msgs:pcl_ros:pluginlib:rclcpp:sensor_msgs:std_msgs:tf2:tf2_geometry_msgs:tf2_ros
