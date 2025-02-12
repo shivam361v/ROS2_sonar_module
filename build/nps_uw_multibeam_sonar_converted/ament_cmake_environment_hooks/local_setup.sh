@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/shivam/ROS2_sonar_module/install/nps_uw_multibeam_sonar_converted"}
+: ${AMENT_CURRENT_PREFIX:="/home/shivam/ros2Module_ws/install/nps_uw_multibeam_sonar_converted"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

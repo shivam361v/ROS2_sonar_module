@@ -1,0 +1,86 @@
+[0.028s] Invoking command in '/home/shivam/ros2Module_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2Module_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2Module_ws/install/turtlebot3_node
+[0.499s] -- The C compiler identification is GNU 11.4.0
+[0.500s] -- The CXX compiler identification is GNU 11.4.0
+[0.500s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.501s] -- Detecting C compile features
+[0.501s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.502s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.583s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.586s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.637s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.644s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.659s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.740s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.800s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.938s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.998s] -- Looking for pthread.h
+[1.084s] -- Looking for pthread.h - found
+[1.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.175s] -- Found Threads: TRUE  
+[1.226s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.243s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.263s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.278s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[1.290s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.394s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.497s] -- Configuring done
+[1.520s] -- Generating done
+[1.527s] -- Build files have been written to: /home/shivam/ros2Module_ws/build/turtlebot3_node
+[1.550s] Invoked command in '/home/shivam/ros2Module_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2Module_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2Module_ws/install/turtlebot3_node
+[1.552s] Invoking command in '/home/shivam/ros2Module_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/turtlebot3_node -- -j16 -l16
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.620s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.620s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.620s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.620s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.620s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.620s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[16.906s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[17.437s] [ 85%] Built target turtlebot3_node_lib
+[17.459s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[20.116s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[21.371s] [100%] Built target turtlebot3_ros
+[21.382s] Invoked command in '/home/shivam/ros2Module_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/turtlebot3_node -- -j16 -l16
+[21.384s] Invoking command in '/home/shivam/ros2Module_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2Module_ws/build/turtlebot3_node
+[21.390s] -- Install configuration: ""
+[21.391s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[21.391s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[21.391s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[21.391s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[21.391s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[21.404s] -- Set runtime path of "/home/shivam/ros2Module_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[21.404s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[21.404s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[21.404s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[21.405s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[21.406s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[21.406s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.406s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[21.406s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[21.406s] -- Installing: /home/shivam/ros2Module_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[21.409s] Invoked command in '/home/shivam/ros2Module_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2Module_ws/build/turtlebot3_node

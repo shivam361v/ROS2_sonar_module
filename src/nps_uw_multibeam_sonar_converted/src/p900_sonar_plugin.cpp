@@ -2,9 +2,6 @@
 
 #include <cassert>
 #include <sys/stat.h>
-// #include <tf2_geometry_msgs/tf2_geometry_msgs.h>  // For TF2 conversions
-// #include <tf2_ros/transform_listener.h>  // TF2 transform handling
-// #include <geometry_msgs/msg/transform_stamped.hpp>  // Transformation messages
 
 #include <sensor_msgs/msg/image.hpp>  // Updated for ROS 2
 #include <sensor_msgs/msg/point_cloud2.hpp>  // Updated for ROS 2

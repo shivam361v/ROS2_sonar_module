@@ -49,26 +49,26 @@ include_directories(
 link_directories(${CUDA_LIBRARY_DIRS})
 
 # Add the plugin library
-add_library(p900_sonar_plugin SHARED 
-src/p900_sonar_plugin.cpp
+add_library(gazebo_multibeam_sonar_raster_based SHARED 
+src/gazebo_multibeam_sonar_raster_based.cpp
 src/sonar_calculation_cuda.cuh
 include/nps_uw_multibeam_sonar_converted/sonar_calculation_cuda.cuh
 )
 
-set_target_properties(p900_sonar_plugin
+set_target_properties(gazebo_multibeam_sonar_raster_based
                       PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 
                     
 
-target_include_directories(p900_sonar_plugin PUBLIC include)
+target_include_directories(gazebo_multibeam_sonar_raster_based PUBLIC include)
 
 # Link CUDA Libraries
-target_link_libraries(p900_sonar_plugin 
+target_link_libraries(gazebo_multibeam_sonar_raster_based 
     ${CUDA_LIBRARIES}
     ${CUDA_CUFFT_LIBRARIES}
 )
 
-ament_target_dependencies(p900_sonar_plugin 
+ament_target_dependencies(gazebo_multibeam_sonar_raster_based 
 rclcpp 
 pluginlib 
 sensor_msgs 
@@ -87,7 +87,7 @@ install(
 )
 
 install(
-  TARGETS p900_sonar_plugin
+  TARGETS gazebo_multibeam_sonar_raster_based
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
@@ -99,12 +99,12 @@ src/test_node.cpp
 )
 
 target_link_libraries(test_node 
-    p900_sonar_plugin 
+    gazebo_multibeam_sonar_raster_based 
     ${CUDA_LIBRARIES}
     ${CUDA_CUFFT_LIBRARIES}
 )
 
-target_link_libraries(test_node p900_sonar_plugin 
+target_link_libraries(test_node gazebo_multibeam_sonar_raster_based 
   tf2::tf2
   tf2_ros::tf2_ros
   tf2_geometry_msgs::tf2_geometry_msgs
@@ -122,7 +122,7 @@ ament_target_dependencies(test_node
   pluginlib
   image_transport
 )
-install(TARGETS p900_sonar_plugin test_node DESTINATION lib/${PROJECT_NAME})
+install(TARGETS gazebo_multibeam_sonar_raster_based test_node DESTINATION lib/${PROJECT_NAME})
 
 # Declare plugin metadata
 pluginlib_export_plugin_description_file(nps_uw_multibeam_sonar_converted plugins.xml)

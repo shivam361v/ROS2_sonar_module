@@ -1,0 +1,1289 @@
+[0.476s] Invoking command in '/home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2Module_ws/install/nps_uw_multibeam_sonar_converted
+[0.544s] -- The C compiler identification is GNU 11.4.0
+[0.617s] -- The CXX compiler identification is GNU 11.4.0
+[0.628s] -- Detecting C compiler ABI info
+[0.703s] -- Detecting C compiler ABI info - done
+[0.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.714s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.718s] -- Detecting CXX compiler ABI info
+[0.801s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[2.022s] -- The CUDA compiler identification is NVIDIA 11.5.119
+[2.031s] -- Detecting CUDA compiler ABI info
+[3.256s] -- Detecting CUDA compiler ABI info - done
+[3.287s] -- Check for working CUDA compiler: /usr/bin/nvcc - skipped
+[3.288s] -- Detecting CUDA compile features
+[3.288s] -- Detecting CUDA compile features - done
+[3.293s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.481s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.602s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.661s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.701s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.705s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.715s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.805s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.809s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.840s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.929s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.937s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.958s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.963s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.975s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.004s] -- Looking for pthread.h
+[4.134s] -- Looking for pthread.h - found
+[4.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.340s] -- Found Threads: TRUE  
+[4.414s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[4.436s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.440s] -- Checking for module 'bullet>=2.82'
+[4.478s] --   Found bullet, version 3.05
+[4.701s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.796s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.849s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.937s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.979s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.986s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.995s] -- Searching for dependencies of ignition-math6
+[4.997s] -- Looking for OGRE...
+[4.998s] -- OGRE_PREFIX_WATCH changed.
+[5.007s] -- Checking for module 'OGRE'
+[5.034s] --   Found OGRE, version 1.9.0
+[5.148s] -- Found Ogre Ghadamon (1.9.0)
+[5.171s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.186s] -- Looking for OGRE_Paging...
+[5.198s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.199s] -- Looking for OGRE_Terrain...
+[5.215s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.215s] -- Looking for OGRE_Property...
+[5.226s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.226s] -- Looking for OGRE_RTShaderSystem...
+[5.241s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.242s] -- Looking for OGRE_Volume...
+[5.256s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.256s] -- Looking for OGRE_Overlay...
+[5.273s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.560s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.564s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.565s] -- Searching for dependencies of ignition-transport8
+[5.629s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.649s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.668s] -- Checking for module 'libzmq >= 4'
+[5.714s] --   Found libzmq , version 4.3.4
+[5.793s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.803s] -- Checking for module 'uuid'
+[5.829s] --   Found uuid, version 2.37.2
+[5.897s] -- Found UUID: TRUE  
+[5.901s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.901s] -- Searching for dependencies of ignition-msgs5
+[5.930s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.940s] -- Checking for module 'tinyxml2'
+[5.969s] --   Found tinyxml2, version 9.0.0
+[6.084s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.088s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.088s] -- Searching for dependencies of ignition-common3
+[6.088s] -- Looking for dlfcn.h - found
+[6.092s] -- Looking for libdl - found
+[6.098s] -- Found DL: TRUE  
+[6.130s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.133s] -- Searching for <ignition-common3> component [graphics]
+[6.134s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.135s] -- Searching for dependencies of ignition-common3-graphics
+[6.136s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.141s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.144s] -- Searching for dependencies of ignition-fuel_tools4
+[6.356s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.371s] -- Checking for module 'jsoncpp'
+[6.402s] --   Found jsoncpp, version 1.9.5
+[6.483s] -- Found JSONCPP: TRUE  
+[6.500s] -- Checking for module 'libzip'
+[6.524s] --   Found libzip, version 1.7.3
+[6.617s] -- Found ZIP: TRUE  
+[6.618s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.618s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.618s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.624s] -- Gazebo version: 11.10
+[6.624s] -- Checking for module 'tbb'
+[6.663s] --   Found tbb, version 2021.5.0
+[6.763s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[6.773s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.824s] -- Found marine_acoustic_msgs: 2.1.0 (/opt/ros/humble/share/marine_acoustic_msgs/cmake)
+[6.862s] -- Found OpenCV: /usr (found version "4.5.4") 
+[6.864s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.870s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[6.951s] -- Checking for module 'eigen3'
+[6.982s] --   Found eigen3, version 3.4.0
+[7.065s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.065s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.108s] -- Checking for module 'flann'
+[7.139s] --   Found flann, version 1.9.1
+[7.235s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.235s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.665s] -- Checking for module 'libusb-1.0'
+[8.682s] --   Found libusb-1.0, version 1.0.25
+[8.729s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.729s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.801s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.960s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.967s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.974s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.131s] -- Found Qhull version 8.0.2
+[9.290s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.439s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.440s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.441s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.442s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.442s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.443s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.443s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.444s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.444s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.445s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.446s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.447s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.448s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.448s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.449s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.450s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.451s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.452s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.453s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.454s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.455s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.455s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.455s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.456s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.457s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.479s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.480s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.481s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.607s] -- Found CUDA: /usr (found version "11.5") 
+[9.610s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[9.695s] -- Configuring done
+[9.833s] -- Generating done
+[9.854s] -- Build files have been written to: /home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted
+[9.888s] Invoked command in '/home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted -DCMAKE_INSTALL_PREFIX=/home/shivam/ros2Module_ws/install/nps_uw_multibeam_sonar_converted
+[9.890s] Invoking command in '/home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted -- -j16 -l16
+[9.951s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_multibeam_sonar_raster_based.dir/src/gazebo_multibeam_sonar_raster_based.cpp.o[0m
+[25.354s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::NpsGazeboRosMultibeamSonar::Advertise()[m[K’:
+[25.354s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:463:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.355s]   463 |   this->depth_image_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::Image>(this->depth_image_topic_name_, 10);
+[25.355s]       | 
+[25.355s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:463:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.355s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:466:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.355s]   466 |   this->depth_image_camera_info_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::CameraInfo>(this->depth_image_camera_info_topic_name_, 10);
+[25.355s]       | 
+[25.355s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:466:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.355s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:469:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.356s]   469 |   this->normal_image_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::Image>(this->depth_image_topic_name_ + "_normals", 10);
+[25.356s]       | 
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:469:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:472:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.356s]   472 |   this->point_cloud_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::PointCloud2>(this->point_cloud_topic_name_, 10);
+[25.356s]       | 
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:472:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:475:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.356s]   475 |   this->sonar_image_raw_pub_ = this->rosnode_->create_publisher<marine_acoustic_msgs::msg::ProjectedSonarImage>(this->sonar_image_raw_topic_name_, 10);
+[25.356s]       | 
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:475:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.356s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:478:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Krosnode_[m[K’
+[25.357s]   478 |   this->sonar_image_pub_ = this->rosnode_->create_publisher<sensor_msgs::msg::Image>(this->sonar_image_topic_name_, 10);
+[25.357s]       | 
+[25.357s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:478:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[25.357s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::DepthImageConnect()[m[K’:
+[25.357s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:486:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.357s]   486 |     ++this->depth_image_connect_count_;
+[25.357s]       | 
+[25.357s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:488:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.357s]   488 |     this->parentSensor->SetActive(true);
+[25.357s]       | 
+[25.357s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.358s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.358s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.358s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.358s]       | 
+[25.358s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.358s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.358s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.358s]       | 
+[25.358s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.358s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.358s]       | 
+[25.358s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.358s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.358s]       | 
+[25.358s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.359s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.359s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.359s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.359s]       | 
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:489:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.359s]   489 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.359s]       | 
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:490:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.359s]   490 |                  "DepthImage connected. Count: %d", this->depth_image_connect_count_);
+[25.359s]       | 
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::DepthImageDisconnect()[m[K’:
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:496:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.359s]   496 |     if (this->depth_image_connect_count_ > 0)
+[25.359s]       | 
+[25.359s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:497:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.360s]   497 |       --this->depth_image_connect_count_;
+[25.360s]       | 
+[25.360s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.360s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.360s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.360s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.360s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.360s]       | 
+[25.360s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.360s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.360s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.360s]       | 
+[25.361s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.361s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.361s]       | 
+[25.361s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.361s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.361s]       | 
+[25.361s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.361s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.361s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.361s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.361s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.361s]       | 
+[25.361s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:499:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.361s]   499 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.361s]       | 
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:500:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s]   500 |                  "DepthImage disconnected. Count: %d", this->depth_image_connect_count_);
+[25.362s]       | 
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:503:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s]   503 |     if (this->depth_image_connect_count_ == 0 && this->point_cloud_connect_count_ == 0)
+[25.362s]       | 
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:503:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:504:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s]   504 |       this->parentSensor->SetActive(false);
+[25.362s]       | 
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::NormalImageConnect()[m[K’:
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:510:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s]   510 |     ++this->normal_image_connect_count_;
+[25.362s]       | 
+[25.362s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:511:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.362s]   511 |     this->parentSensor->SetActive(true);
+[25.362s]       | 
+[25.362s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.363s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.363s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.363s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.363s]       | 
+[25.363s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.363s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.363s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.363s]       | 
+[25.363s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.363s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.363s]       | 
+[25.363s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.363s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.363s]       | 
+[25.363s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.364s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.364s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.364s]       | 
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:512:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.364s]   512 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.364s]       | 
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:513:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.364s]   513 |                  "NormalImage connected. Count: %d", this->normal_image_connect_count_);
+[25.364s]       | 
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::NormalImageDisconnect()[m[K’:
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:519:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.364s]   519 |     if (this->normal_image_connect_count_ > 0)
+[25.364s]       | 
+[25.364s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:520:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.364s]   520 |       --this->normal_image_connect_count_;
+[25.364s]       | 
+[25.364s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.365s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.365s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.365s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.365s]       | 
+[25.365s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.365s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.365s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.365s]       | 
+[25.365s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.365s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.365s]       | 
+[25.365s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.365s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.365s]       | 
+[25.365s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.366s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.366s]       | 
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:522:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   522 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.366s]       | 
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:523:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   523 |                  "NormalImage disconnected. Count: %d", this->normal_image_connect_count_);
+[25.366s]       | 
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:525:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   525 |     if (this->normal_image_connect_count_ == 0 && this->point_cloud_connect_count_ == 0)
+[25.366s]       | 
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:525:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:526:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   526 |       this->parentSensor->SetActive(false);
+[25.366s]       | 
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::DepthInfoConnect()[m[K’:
+[25.366s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:532:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.366s]   532 |     ++this->depth_info_connect_count_;
+[25.366s]       | 
+[25.366s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.367s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.367s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.367s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.367s]       | 
+[25.367s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.367s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.367s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.367s]       | 
+[25.367s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.367s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.367s]       | 
+[25.367s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.367s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.367s]       | 
+[25.367s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.367s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.368s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.368s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.368s]       | 
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:533:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.368s]   533 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.368s]       | 
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:534:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.368s]   534 |                  "DepthInfo connected. Count: %d", this->depth_info_connect_count_);
+[25.368s]       | 
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::DepthInfoDisconnect()[m[K’:
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:540:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.368s]   540 |     if (this->depth_info_connect_count_ > 0)
+[25.368s]       | 
+[25.368s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:541:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.368s]   541 |       --this->depth_info_connect_count_;
+[25.368s]       | 
+[25.368s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.368s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.368s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.369s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.369s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.369s]       | 
+[25.369s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.369s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.369s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.369s]       | 
+[25.369s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.369s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.369s]       | 
+[25.369s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.369s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.369s]       | 
+[25.369s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.370s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.370s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.370s]       | 
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:542:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.370s]   542 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.370s]       | 
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:543:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.370s]   543 |                  "DepthInfo disconnected. Count: %d", this->depth_info_connect_count_);
+[25.370s]       | 
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::PointCloudConnect()[m[K’:
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:549:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.370s]   549 |     ++this->point_cloud_connect_count_;
+[25.370s]       | 
+[25.370s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:552:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.370s]   552 |     this->parentSensor->SetActive(true);
+[25.370s]       | 
+[25.370s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.370s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.371s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.371s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.371s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.371s]       | 
+[25.371s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.371s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.371s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.371s]       | 
+[25.371s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.371s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.371s]       | 
+[25.371s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.371s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.371s]       | 
+[25.371s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.372s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.372s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.372s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.372s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.372s]       | 
+[25.372s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:553:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.372s]   553 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.372s]       | 
+[25.372s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:554:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.372s]   554 |                  "PointCloud connected. Count: %d", this->point_cloud_connect_count_);
+[25.372s]       | 
+[25.372s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In function ‘[01m[Kvoid gazebo::PointCloudDisconnect()[m[K’:
+[25.372s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:560:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.372s]   560 |     if (this->point_cloud_connect_count_ > 0)
+[25.373s]       | 
+[25.373s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:561:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.373s]   561 |       --this->point_cloud_connect_count_;
+[25.373s]       | 
+[25.373s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.373s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.373s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.373s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.373s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.373s]       | 
+[25.373s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.373s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.373s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.373s]       | 
+[25.373s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.373s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.374s]       | 
+[25.374s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.374s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.374s]       | 
+[25.374s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.374s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.374s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.374s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.374s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.374s]       | 
+[25.374s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:563:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.374s]   563 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.374s]       | 
+[25.374s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:564:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.374s]   564 |                  "PointCloud disconnected. Count: %d", this->point_cloud_connect_count_);
+[25.374s]       | 
+[25.374s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:566:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.374s]   566 |     if (this->point_cloud_connect_count_ == 0)
+[25.374s]       | 
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:567:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[25.375s]   567 |       this->parentSensor->SetActive(false);
+[25.375s]       | 
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::NpsGazeboRosMultibeamSonar::OnNewDepthFrame(const float*, unsigned int, unsigned int, unsigned int, const string&)[m[K’:
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:579:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kinitialized_[m[K’
+[25.375s]   579 |   if (!this->initialized_ || this->height_ <= 0 || this->width_ <= 0)
+[25.375s]       | 
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:579:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kheight_[m[K’; did you mean ‘[01m[Kheight[m[K’?
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:579:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kwidth_[m[K’; did you mean ‘[01m[Kwidth[m[K’?
+[25.375s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:583:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kgazebo::common::Time[m[K’)
+[25.375s]   583 |   this->depth_sensor_update_time_ = this->parentSensor->LastMeasurementTime();
+[25.375s]       | 
+[25.375s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.375s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.375s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.375s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)[m[K’
+[25.375s]    91 |   [01;36m[Koperator[m[K=(const Time & rhs);
+[25.375s]       |   [01;36m[K^~~~~~~~[m[K
+[25.375s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::common::Time[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+[25.376s]    91 |   operator=([01;36m[Kconst Time & rhs[m[K);
+[25.376s]       |             [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[25.376s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const Time&)[m[K’
+[25.376s]   101 |   [01;36m[Koperator[m[K=(const builtin_interfaces::msg::Time & time_msg);
+[25.376s]       |   [01;36m[K^~~~~~~~[m[K
+[25.376s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::common::Time[m[K’ to ‘[01m[Kconst Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[25.376s]   101 |   operator=([01;36m[Kconst builtin_interfaces::msg::Time & time_msg[m[K);
+[25.376s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[25.376s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:590:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_connect_count_[m[K’; did you mean ‘[01m[Kdepth_image_connect_count_[m[K’?
+[25.376s]   590 |         (*this->image_connect_count_) <= 0)
+[25.376s]       | 
+[25.376s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.376s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.376s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.376s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.376s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.376s]       | 
+[25.376s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.376s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.376s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.377s]       | 
+[25.377s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.377s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.377s]       | 
+[25.377s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.377s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.377s]       | 
+[25.377s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.377s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.377s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.377s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.377s]       | 
+[25.377s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:593:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.377s]   593 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.377s]       | 
+[25.377s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.378s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.378s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.378s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.378s]       | 
+[25.378s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.378s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.378s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.378s]       | 
+[25.378s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.378s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.378s]       | 
+[25.378s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.378s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.378s]       | 
+[25.378s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.379s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.379s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.379s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.379s]       | 
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:615:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.379s]   615 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.379s]       | 
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::NpsGazeboRosMultibeamSonar::OnNewImageFrame(const unsigned char*, unsigned int, unsigned int, unsigned int, const string&)[m[K’:
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:630:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kinitialized_[m[K’
+[25.379s]   630 |   if (!this->initialized_ || this->height_ <= 0 || this->width_ <= 0)
+[25.379s]       | 
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:630:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kheight_[m[K’; did you mean ‘[01m[Kheight[m[K’?
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:630:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kwidth_[m[K’; did you mean ‘[01m[Kwidth[m[K’?
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:634:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Ksensor_update_time_[m[K’; did you mean ‘[01m[Kdepth_sensor_update_time_[m[K’?
+[25.379s]   634 |   this->sensor_update_time_ = this->parentSensor->LastMeasurementTime();
+[25.379s]       | 
+[25.379s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:639:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_connect_count_[m[K’; did you mean ‘[01m[Kdepth_image_connect_count_[m[K’?
+[25.379s]   639 |     if ((*this->image_connect_count_) > 0)
+[25.379s]       | 
+[25.379s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.380s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.380s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.380s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.380s]       | 
+[25.380s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.380s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.380s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.380s]       | 
+[25.380s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.380s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.380s]       | 
+[25.380s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.380s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.380s]       | 
+[25.380s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.381s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.381s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.381s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.381s]       | 
+[25.381s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:643:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.381s]   643 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.381s]       | 
+[25.381s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:650:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_connect_count_[m[K’; did you mean ‘[01m[Kdepth_image_connect_count_[m[K’?
+[25.381s]   650 |     if ((*this->image_connect_count_) > 0)
+[25.381s]       | 
+[25.381s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:652:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[KPutCameraData[m[K’
+[25.381s]   652 |       this->PutCameraData(_image);
+[25.381s]       | 
+[25.381s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.382s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.382s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.382s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.382s]       | 
+[25.382s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.382s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.382s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.382s]       | 
+[25.382s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.382s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.382s]       | 
+[25.382s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.382s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.382s]       | 
+[25.382s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.382s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.383s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.383s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.383s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.383s]       | 
+[25.383s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:653:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.383s]   653 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.383s]       | 
+[25.383s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.383s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.383s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.383s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.383s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.383s]       | 
+[25.383s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.383s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.384s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.384s]       | 
+[25.384s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.384s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.384s]       | 
+[25.384s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.384s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.384s]       | 
+[25.384s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.384s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.384s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.384s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.384s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.384s]       | 
+[25.384s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:676:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.384s]   676 |     RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.385s]       | 
+[25.385s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:699:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kcamera_[m[K’
+[25.385s]   699 |         std::string cameraName = this->camera_->OgreCamera()->getName();
+[25.385s]       | 
+[25.385s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:704:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kcamera_[m[K’
+[25.385s]   704 |                 this->camera_->RenderTexture()->getBuffer()->getRenderTarget()));
+[25.385s]       | 
+[25.385s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.385s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.385s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.385s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.385s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.385s]       | 
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.386s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.386s]       | 
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.386s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.386s]       | 
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.386s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.386s]       | 
+[25.386s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.386s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.386s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.386s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.386s]       | 
+[25.386s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:723:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.387s]   723 |         RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.387s]       | 
+[25.387s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.387s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.387s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.387s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.387s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.387s]       | 
+[25.387s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.387s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.387s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.387s]       | 
+[25.387s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.387s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.387s]       | 
+[25.387s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.387s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.387s]       | 
+[25.387s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.388s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.388s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.388s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.388s]       | 
+[25.388s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:808:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.388s]   808 |       RCLCPP_DEBUG(this->ros_node_->get_logger(),
+[25.388s]       | 
+[25.388s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvoid gazebo::NpsGazeboRosMultibeamSonar::ComputeSonarImage(const float*)[m[K’:
+[25.388s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:819:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Klock_[m[K’
+[25.388s]   819 |   std::lock_guard<std::mutex> lock(this->lock_);
+[25.388s]       | 
+[25.388s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.389s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.389s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.389s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.389s]       | 
+[25.389s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.389s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.389s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.389s]       | 
+[25.389s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.389s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.389s]       | 
+[25.389s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.389s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.389s]       | 
+[25.389s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.390s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.390s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.390s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.390s]       | 
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:895:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.390s]   895 |     RCLCPP_INFO(this->ros_node_->get_logger(),
+[25.390s]       | 
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:940:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kframe_name_[m[K’
+[25.390s]   940 |   this->sonar_image_raw_msg_.header.frame_id = this->frame_name_;
+[25.390s]       | 
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:941:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[25.390s]   941 |   this->sonar_image_raw_msg_.header.stamp.sec = this->depth_sensor_update_time_.sec;
+[25.390s]       | 
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:942:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knsec[m[K’
+[25.390s]   942 |   this->sonar_image_raw_msg_.header.stamp.nanosec = this->depth_sensor_update_time_.nsec;  // ROS 2 uses "nanosec"
+[25.390s]       | 
+[25.390s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1075:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kframe_name_[m[K’
+[25.390s]  1075 |   this->sonar_image_msg_.header.frame_id = this->frame_name_;
+[25.390s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1076:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[25.391s]  1076 |   this->sonar_image_msg_.header.stamp.sec = this->depth_sensor_update_time_.sec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1077:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knsec[m[K’
+[25.391s]  1077 |   this->sonar_image_msg_.header.stamp.nanosec = this->depth_sensor_update_time_.nsec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1085:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kframe_name_[m[K’
+[25.391s]  1085 |   this->depth_image_msg_.header.frame_id = this->frame_name_;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1086:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[25.391s]  1086 |   this->depth_image_msg_.header.stamp.sec = this->depth_sensor_update_time_.sec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1087:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knsec[m[K’
+[25.391s]  1087 |   this->depth_image_msg_.header.stamp.nanosec = this->depth_sensor_update_time_.nsec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1095:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kframe_name_[m[K’
+[25.391s]  1095 |   this->normal_image_msg_.header.frame_id = this->frame_name_;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1096:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[25.391s]  1096 |   this->normal_image_msg_.header.stamp.sec = this->depth_sensor_update_time_.sec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1097:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knsec[m[K’
+[25.391s]  1097 |   this->normal_image_msg_.header.stamp.nanosec = this->depth_sensor_update_time_.nsec;
+[25.391s]       | 
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvoid gazebo::NpsGazeboRosMultibeamSonar::ComputePointCloud(const float*)[m[K’:
+[25.391s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1110:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Klock_[m[K’
+[25.391s]  1110 |   std::lock_guard<std::mutex> guard(this->lock_);
+[25.391s]       | 
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1113:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kframe_name_[m[K’
+[25.392s]  1113 |   this->point_cloud_msg_.header.frame_id = this->frame_name_;
+[25.392s]       | 
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1114:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[25.392s]  1114 |   this->point_cloud_msg_.header.stamp.sec = this->depth_sensor_update_time_.sec;
+[25.392s]       | 
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1115:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knsec[m[K’
+[25.392s]  1115 |   this->point_cloud_msg_.header.stamp.nanosec = this->depth_sensor_update_time_.nsec;
+[25.392s]       | 
+[25.392s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.392s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.392s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.392s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.392s]       | 
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.392s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.392s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.392s]       | 
+[25.393s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.393s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.393s]       | 
+[25.393s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[25.393s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.393s]       | 
+[25.393s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.393s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.393s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.393s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.393s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.393s]       | 
+[25.393s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1171:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.393s]  1171 |         RCLCPP_INFO(this->ros_node_->get_logger(), "Depth: %f", depth);
+[25.393s]       | 
+[25.393s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1195:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_msg_[m[K’; did you mean ‘[01m[Kdepth_image_msg_[m[K’?
+[25.393s]  1195 |       uint8_t* image_src = reinterpret_cast<uint8_t*>(&(this->image_msg_.data[0]));
+[25.393s]       | 
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1196:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_msg_[m[K’; did you mean ‘[01m[Kdepth_image_msg_[m[K’?
+[25.394s]  1196 |       if (this->image_msg_.data.size() == this->height * this->width * 3)
+[25.394s]       | 
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1203:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kimage_msg_[m[K’; did you mean ‘[01m[Kdepth_image_msg_[m[K’?
+[25.394s]  1203 |       else if (this->image_msg_.data.size() == this->height * this->width)
+[25.394s]       | 
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kcv::Mat gazebo::NpsGazeboRosMultibeamSonar::ComputeNormalImage(cv::Mat&)[m[K’:
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1295:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kfocal_length_[m[K’
+[25.394s]  1295 |   images[2] = (1.0f / this->focal_length_) * depth;  // Blue channel (scaled depth)
+[25.394s]       | 
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::NpsGazeboRosMultibeamSonar::PublishCameraInfo()[m[K’:
+[25.394s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1317:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kros_node_[m[K’
+[25.394s]  1317 |   RCLCPP_DEBUG_NAMED(this->ros_node_->get_logger(), "depth_camera",
+[25.394s]       | 
+[25.428s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1317:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_NAMED[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_DEBUG_ONCE[m[K’?
+[25.428s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1320:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosCameraUtils[m[K’ has not been declared
+[25.428s]  1320 |   GazeboRosCameraUtils::PublishCameraInfo();
+[25.428s]       | 
+[25.428s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1327:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Ksensor_update_time_[m[K’; did you mean ‘[01m[Kdepth_sensor_update_time_[m[K’?
+[25.428s]  1327 |     this->sensor_update_time_ = sensor_update_time;
+[25.428s]       | 
+[25.428s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1329:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kgazebo::common::Time[m[K’ and ‘[01m[Krclcpp::Time[m[K’)
+[25.428s]  1329 |     if (sensor_update_time - this->last_depth_image_camera_info_update_time_ >= this->update_period_)
+[25.429s]       | 
+[25.429s] In file included from [01m[K/usr/include/gazebo-11/gazebo/common/Event.hh:28[m[K,
+[25.429s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/SystemPaths.hh:36[m[K,
+[25.429s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:37[m[K,
+[25.429s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/include/nps_uw_multibeam_sonar_converted/gazebo_multibeam_sonar_raster_based_header.hh:23[m[K,
+[25.429s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:36[m[K:
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:209:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgazebo::common::Time gazebo::common::Time::operator-(const timeval&) const[m[K’
+[25.429s]   209 |       public: Time [01;36m[Koperator[m[K -(const struct timeval &_tv) const;
+[25.429s]       |                    [01;36m[K^~~~~~~~[m[K
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:209:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst timeval&[m[K’
+[25.429s]   209 |       public: Time operator -([01;36m[Kconst struct timeval &_tv[m[K) const;
+[25.429s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:219:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgazebo::common::Time gazebo::common::Time::operator-(const timespec&) const[m[K’
+[25.429s]   219 |       public: Time [01;36m[Koperator[m[K -(const struct timespec &_tv) const;
+[25.429s]       |                    [01;36m[K^~~~~~~~[m[K
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:219:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst timespec&[m[K’
+[25.429s]   219 |       public: Time operator -([01;36m[Kconst struct timespec &_tv[m[K) const;
+[25.429s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:229:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgazebo::common::Time gazebo::common::Time::operator-(const gazebo::common::Time&) const[m[K’
+[25.429s]   229 |       public: Time [01;36m[Koperator[m[K -(const Time &_time) const;
+[25.429s]       |                    [01;36m[K^~~~~~~~[m[K
+[25.429s] [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:229:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst gazebo::common::Time&[m[K’
+[25.429s]   229 |       public: Time operator -([01;36m[Kconst Time &_time[m[K) const;
+[25.429s]       |                               [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[25.429s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1329:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::NpsGazeboRosMultibeamSonar[m[K’ has no member named ‘[01m[Kupdate_period_[m[K’
+[25.430s]  1329 |     if (sensor_update_time - this->last_depth_image_camera_info_update_time_ >= this->update_period_)
+[25.430s]       | 
+[25.430s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1332:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::NpsGazeboRosMultibeamSonar::PublishCameraInfo(rclcpp::Publisher<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >::SharedPtr&)[m[K’
+[25.430s]  1332 |       this->PublishCameraInfo(this->depth_image_camera_info_pub_);
+[25.430s]       | 
+[25.430s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1315:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::NpsGazeboRosMultibeamSonar::PublishCameraInfo()[m[K’
+[25.430s]  1315 | void NpsGazeboRosMultibeamSonar::PublishCameraInfo()
+[25.430s]       | 
+[25.430s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1315:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[25.430s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1334:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kgazebo::common::Time[m[K’)
+[25.430s]  1334 |       this->last_depth_image_camera_info_update_time_ = sensor_update_time;
+[25.430s]       | 
+[25.430s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+[25.430s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+[25.430s]                  from [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:10[m[K:
+[25.430s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)[m[K’
+[25.430s]    91 |   [01;36m[Koperator[m[K=(const Time & rhs);
+[25.430s]       |   [01;36m[K^~~~~~~~[m[K
+[25.431s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:91:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::common::Time[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+[25.431s]    91 |   operator=([01;36m[Kconst Time & rhs[m[K);
+[25.431s]       |             [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[25.431s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const Time&)[m[K’
+[25.431s]   101 |   [01;36m[Koperator[m[K=(const builtin_interfaces::msg::Time & time_msg);
+[25.431s]       |   [01;36m[K^~~~~~~~[m[K
+[25.431s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:101:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::common::Time[m[K’ to ‘[01m[Kconst Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[25.431s]   101 |   operator=([01;36m[Kconst builtin_interfaces::msg::Time & time_msg[m[K);
+[25.431s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[25.431s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:[m[K At global scope:
+[25.431s] [01m[K/home/shivam/ros2Module_ws/src/nps_uw_multibeam_sonar_converted/src/gazebo_multibeam_sonar_raster_based.cpp:1341:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[25.431s]  1341 | PLUGINLIB_EXPORT_CLASS(gazebo_ros::GazeboMultibeamSonarRasterBased, gazebo_ros::GazeboMultibeamSonarRasterBasedHeader)
+[25.431s]       | 
+[27.595s] gmake[2]: *** [CMakeFiles/gazebo_multibeam_sonar_raster_based.dir/build.make:76: CMakeFiles/gazebo_multibeam_sonar_raster_based.dir/src/gazebo_multibeam_sonar_raster_based.cpp.o] Error 1
+[27.595s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gazebo_multibeam_sonar_raster_based.dir/all] Error 2
+[27.595s] gmake: *** [Makefile:146: all] Error 2
+[27.599s] Invoked command in '/home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/nps_uw_multibeam_sonar_converted -- -j16 -l16

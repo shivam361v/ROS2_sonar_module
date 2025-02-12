@@ -1,0 +1,4 @@
+Invoking command in '/home/shivam/ros2Module_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/turtlebot3_description -- -j16 -l16
+Invoked command in '/home/shivam/ros2Module_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/ros2Module_ws/build/turtlebot3_description -- -j16 -l16
+Invoking command in '/home/shivam/ros2Module_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2Module_ws/build/turtlebot3_description
+Invoked command in '/home/shivam/ros2Module_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/ros2Module_ws/build/turtlebot3_description
